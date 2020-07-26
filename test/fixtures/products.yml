@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: one
+  name: MyString
+  quantity: 1
+  minimum_quantity: 1
+  measure_unit: MyString
+
+two:
+  category: two
+  name: MyString
+  quantity: 1
+  minimum_quantity: 1
+  measure_unit: MyString
