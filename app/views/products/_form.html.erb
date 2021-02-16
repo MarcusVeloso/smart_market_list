@@ -13,7 +13,8 @@
 
   <div class="field">
     <%= f.label :category_id %>
-    <%= f.collection_select :category_id, Category.all, :id, :name, {}, {class:"form-control"} %>    
+    <%# <%= f.collection_select :category_id, Category.all, :id, :name, {}, {class:"form-control"} %>   
+    <%= f.collection_select :category_id, Category.all, :id, :name, {}, {class: "dropdown-trigger btn"} %>
   </div>
 
   <div class="field">
@@ -37,6 +38,6 @@
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Gravar", :class => "btn btn-primary btn-sm" %>
   </div>
 <% end %>
